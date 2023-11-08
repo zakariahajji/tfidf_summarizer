@@ -74,7 +74,7 @@ mod tests {
         let tf_idf_scores = tf_idf(tokens, &idf);
 
         // We only have one document so the IDF for every term will be 0
-        // Therefore, the TF-IDF scores should be 0 for each term
+        // the TF-IDF scores should be 0 for each term
         for score in tf_idf_scores.values() {
             assert_eq!(*score, 0.0);
         }

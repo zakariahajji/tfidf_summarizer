@@ -1,6 +1,6 @@
 use unicode_segmentation::UnicodeSegmentation;
 
-/// Tokenizes the given text into a vector of lowercase alphanumeric words.
+/// tokenizes the given text into a vector of lowercase alphanumeric words.
 
 pub fn tokenize(text: &str) -> Vec<String> {
     // split the text into words using Unicode segmentation
