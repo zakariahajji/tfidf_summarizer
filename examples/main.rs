@@ -52,6 +52,5 @@ fn main() {
         for (term, score) in tf_idf_scores {
             println!("Term: {:<15} TF-IDF Score: {}", term, score);
         }
-        println!("---------------------------------");
     }
 }

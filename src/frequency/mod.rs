@@ -1,6 +1,6 @@
 use std::collections::{HashMap, HashSet};
 
-/// Calculates the document frequency of terms in a collection of documents.
+/// Caalculates the document frequency of terms in a collection of documents.
 
 pub fn document_frequency(docs: &[Vec<String>]) -> HashMap<String, usize> {
     let mut df = HashMap::new();

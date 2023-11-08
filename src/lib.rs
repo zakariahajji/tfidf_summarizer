@@ -17,7 +17,7 @@ mod tests {
 
     use super::*;
     use crate::tfidf::inverse_document_frequency;
-    use std::collections::HashMap; // Add this to use HashMap in the tests. // Import the function from the tfidf module.
+    use std::collections::HashMap; 
 
     #[test]
     fn test_document_frequency() {
