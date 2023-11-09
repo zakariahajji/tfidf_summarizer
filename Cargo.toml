@@ -1,6 +1,6 @@
 [package]
 name = "tfidf-summarizer"
-version = "0.1.0"
+version = "2.0.0"
 description = "Basic tf-idf compute for documents"
 edition = "2021"
 homepage = "https://github.com/zakariahajji/tfidf_summarizer"
